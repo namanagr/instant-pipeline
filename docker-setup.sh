@@ -13,6 +13,11 @@ apt-get -y update
 apt-get -y install docker-ce
 #apt-get -y install docker-compose
 
+adduser git
+sudo chown -R git:git /home/git/
 
 # Install and setup sqlite database
 sudo apt-get -y install sqlite3 libsqlite3-dev
+
+# Create git user 
+sudo useradd -m -s /bin/bash git
