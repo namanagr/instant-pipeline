@@ -18,3 +18,7 @@ rm linux_amd64.tar.gz # Delete the archived gogs folder
 
 sudo mkdir -p /var/log/gogs
 /home/vagrant/pipeline-project/gogs/gogs web & # Start the gogs server. It will listen on 0.0.0.0:3000
+
+mkdir -p /home/vagrant/pipeline-project/gogs/custom/conf
+cp /vagrant/app.ini /home/vagrant/pipeline-project/gogs/custom/conf/
+
