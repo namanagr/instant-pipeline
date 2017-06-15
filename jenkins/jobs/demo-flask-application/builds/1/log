@@ -1,0 +1,25 @@
+Started by user [8mha:////4OeZCUeibPiouj2WPVnpnHKtya9haz7BTnNrKOhZEdLgAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZe/dLi1CL9ssT0osS8EgBgkt5YwgAAAA==[0mVeritas Developer
+Building in workspace /var/lib/jenkins/workspace/demo-flask-application
+Cloning the remote Git repository
+Cloning repository http://localhost:3000/vagrant/instant-pipeline-repo.git
+ > git init /var/lib/jenkins/workspace/demo-flask-application # timeout=10
+Fetching upstream changes from http://localhost:3000/vagrant/instant-pipeline-repo.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://localhost:3000/vagrant/instant-pipeline-repo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://localhost:3000/vagrant/instant-pipeline-repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://localhost:3000/vagrant/instant-pipeline-repo.git # timeout=10
+Fetching upstream changes from http://localhost:3000/vagrant/instant-pipeline-repo.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://localhost:3000/vagrant/instant-pipeline-repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1357dabe8391e795d3b8cadf70f3a06e6e47db5d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1357dabe8391e795d3b8cadf70f3a06e6e47db5d
+First time build. Skipping changelog.
+[demo-flask-application] $ /bin/sh -xe /tmp/hudson3125500481483939541.sh
++ echo successful
+successful
+Finished: SUCCESS

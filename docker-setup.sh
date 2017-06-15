@@ -16,5 +16,6 @@ apt-get -y install docker-ce
 # Install and setup sqlite database
 sudo apt-get -y install sqlite3 libsqlite3-dev
 
-# Create git user 
-sudo useradd -m -s /bin/bash git
+cp -R /vagrant/instant-pipeline/jenkins /var/lib/
+service jenkins restart
+ 

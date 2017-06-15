@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-14 22:14:06.864 UTC</timestamp>
+  <md5sum>488e09bde8f660dfd451111661816fe5</md5sum>
+  <fileName>Credential id=36786a52-7cf8-431f-b9fe-ce78315586b7 name=vagrant/******</fileName>
+  <usages>
+    <entry>
+      <string>demo-flask-application</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.14">
+      <timestamp>1497478446838</timestamp>
+      <itemFullName>demo-flask-application</itemFullName>
+      <timestamp0>1497478446838</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
