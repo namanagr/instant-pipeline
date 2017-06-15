@@ -17,6 +17,6 @@ sudo mkdir -p /var/log/gogs
 sudo chown vagrant /var/log/gogs
 sudo chgrp vagrant /var/log/gogs
 
-sudo cp supervisor/gogs /etc/supervisor/conf.d/gogs.conf
+sudo cp /vagrant/instant-pipeline/gogs/scripts/supervisor/gogs /etc/supervisor/conf.d/gogs.conf
 sudo service supervisor restart 
 
