@@ -11,6 +11,12 @@ mkdir pipeline-project 2> /dev/null # Create the project folder that contains al
 cd pipeline-project # Enter the project folder
 
 cp -R /vagrant/instant-pipeline/gogs /home/vagrant/pipeline-project/
-cd gogs
-./gogs web # Start the gogs server. It will listen on 0.0.0.0:3000
+sudo cp supervisor/gogs /etc/supervisor/conf.d/gogs.conf
+
+sudo mkdir -p /var/log/gogs
+sudo chown vagrant /var/log/gogs
+sudo chgrp vagrant /var/log/gogs
+
+sudo cp supervisor/gogs /etc/supervisor/conf.d/gogs.conf
+sudo service supervisor restart 
 
