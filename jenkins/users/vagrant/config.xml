@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
-  <fullName>Veritas Developer</fullName>
+  <fullName>vagrant</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwtal7ZWgd/baK37A19cn/XVNCxFC8qb2Ocp09At68NIQ3wdsS7A8pLLpbJAtUiMjMtDHhB2/Ld0I8g5NeIrC7Iw==}</apiToken>
+      <apiToken>{AQAAABAAAAAwxxF7DoA+l3q6BxmGrHgG70dsWlcgE0qQP4aMGjCk9EBPr7W9YH+zjAZqHqMzRD5pBbbJaHzHaU5jDkQJaqG0yA==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.14">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
@@ -32,7 +32,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$E2I9W4Kn0L7bHd.MoBs0q.sSyre/Vrg486lAqHUkFomwOcMyahZGG</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$EE1YMDWvNCb9EWUKlTFjYevpXFrZ0aJs7L12ApxxKJARCc3AERWve</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
       <emailAddress>vagrant@veritas.local</emailAddress>
@@ -41,7 +41,7 @@
       <roles>
         <string>authenticated</string>
       </roles>
-      <timestamp>1497478242283</timestamp>
+      <timestamp>1497564425523</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
