@@ -12,5 +12,5 @@ cd pipeline-project # Enter the project folder
 
 cp -R /vagrant/instant-pipeline/gogs /home/vagrant/pipeline-project/
 cd gogs
-./gogs web & # Start the gogs server. It will listen on 0.0.0.0:3000
+./gogs web # Start the gogs server. It will listen on 0.0.0.0:3000
 
