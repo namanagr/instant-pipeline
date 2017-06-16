@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 touch /home/vagrant/.bash_profile
 #chown vagrant /home/vagrant/.bash_profile
@@ -11,7 +11,6 @@ mkdir pipeline-project 2> /dev/null # Create the project folder that contains al
 cd pipeline-project # Enter the project folder
 
 cp -R /vagrant/instant-pipeline/gogs /home/vagrant/pipeline-project/
-sudo cp supervisor/gogs /etc/supervisor/conf.d/gogs.conf
 
 sudo mkdir -p /var/log/gogs
 sudo chown vagrant /var/log/gogs
