@@ -3,17 +3,27 @@
   <timestamp>2017-06-15 22:28:13.39 UTC</timestamp>
   <md5sum>2d873bac11c034e2d62a950995de52a1</md5sum>
   <fileName>Credential id=7f85b561-40cc-4da3-824f-73d5e2aa1d92 name=vagrant/******</fileName>
-  <usages/>
+  <usages>
+    <entry>
+      <string>demo-flask-job</string>
+      <ranges>10-11,13-14</ranges>
+    </entry>
+  </usages>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.14">
-      <timestamp>1497565693020</timestamp>
-      <itemFullName>demo-flask-job</itemFullName>
-      <timestamp0>1497565693020</timestamp0>
-    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
-    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.14">
-      <timestamp>1497565821581</timestamp>
+      <timestamp>1497595669031</timestamp>
       <itemFullName>local-project-repo</itemFullName>
       <timestamp0>1497565821581</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.14">
+      <timestamp>1497595805467</timestamp>
+      <itemFullName>local-project-job</itemFullName>
+      <timestamp0>1497595805467</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.14">
+      <timestamp>1497654892891</timestamp>
+      <itemFullName>demo-flask-job</itemFullName>
+      <timestamp0>1497654718764</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
