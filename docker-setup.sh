@@ -16,9 +16,9 @@ apt-get -y install docker-ce
 # Install and setup sqlite database
 sudo apt-get -y install sqlite3 libsqlite3-dev
 
-cp -R /vagrant/instant-pipeline/jenkins /var/lib/
-chown -R jenkins /var/lib/jenkins
-chgrp -R jenkins /var/lib/jenkins
+#cp -R /vagrant/instant-pipeline/jenkins /var/lib/
+#chown -R jenkins /var/lib/jenkins
+#chgrp -R jenkins /var/lib/jenkins
 service jenkins restart
 
 sudo sh -c 'echo \"jenkins ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'
